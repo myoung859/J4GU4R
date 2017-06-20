@@ -156,9 +156,9 @@ function getColorMatrixOf(img) {
  **/
 function unScrambleMatrix(matrix, columnsOrder, rowsOrder) {
 
-    for (var i = 0; i < rowsUnscrambleLevel; i++) {}
+    for (var i = 0; i < rowsUnscrambleLevel; i++) {} //This loop doesn't do anything, does it?
 
-    for (var i = 0; i < columnsUnscrambleLevel; i++) {}
+    for (var i = 0; i < columnsUnscrambleLevel; i++) {} //Neither does this one
 
     return finalUnscramble(matrix, columnsOrder);
 }
@@ -177,7 +177,7 @@ function unScrambleRows(matrix, order) {
     auxMatrix.length = matrix.length;
 
     for (var i = 0; i < matrix.length; i++) {
-        matrix[i];
+        matrix[i]; //This doesn't really do anything, does it? Should probably involve AuxMatrix
     }
 
     return auxMatrix;
@@ -201,7 +201,7 @@ function unScrambleColumns(matrix, order) {
 
             for (var k = 0; k < 4; k++) { // 4 : R, G, B, A
 
-                matrix[j][i][k];
+                matrix[j][i][k]; //Again, what does this do?
             }
         }
     }
@@ -225,8 +225,8 @@ function finalUnscramble(matrix, order) {
 
         for (var j = 0; j < auxMatrix.length / base.length; j++) {
 
-            matrix[pos];
-            pos++;
+            matrix[pos]; //This calls the value but doesn't do anything with it
+            pos++; //Why this added variable?
         }
     }
 
@@ -257,3 +257,7 @@ function initMatrixFrom(matrix) {
 }
 
 decodeImage(base64Image, "lettersImg", app.init, app);
+
+/** My thoughts
+* All of the order params are confusing. Im not entirely sure what var type any of them are
+*
