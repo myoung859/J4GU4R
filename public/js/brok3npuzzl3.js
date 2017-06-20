@@ -98,7 +98,7 @@ function decodeOrderHash(hash, orientation) {
  * @return the inverted hash
  **/
 function invert(hash) {
-    return hash.split("").reverse().join("");
+    return hash.split("").reverse().join(""); //I THINK this is how you invert a string. Inititally just said return(hash) which is wrong
 }
 
 /**
