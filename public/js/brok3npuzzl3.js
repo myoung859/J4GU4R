@@ -112,7 +112,7 @@ function decodeOrderHash(hash, orientation) {
  **/
 function invert(hash) {
     // Now you must flip reverse this # to continue. How to.. here: http://bfy.tw/CCwd /Noodle
-    return hash
+    return hash.split("").reverse().join("");
 }
 
 /**
