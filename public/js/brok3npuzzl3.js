@@ -196,7 +196,7 @@ function unScrambleRows(matrix, order) {
 
     for (var i = 0; i < matrix.length; i++) {
         // It’s true that without “order” chaos will continue. /Noodle
-        auxMatrix[i] = matrix[i];
+        auxMatrix[order[i]] = matrix[i];
     }
 
     return auxMatrix;
