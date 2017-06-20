@@ -260,4 +260,5 @@ decodeImage(base64Image, "lettersImg", app.init, app);
 
 /** My thoughts
 * All of the order params are confusing. Im not entirely sure what var type any of them are
-*
+* Currently the program apparently works, it doesn't do anything though
+* viewing index.html shows a weird plaid canvas
