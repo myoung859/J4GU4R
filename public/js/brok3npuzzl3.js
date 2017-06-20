@@ -7,7 +7,7 @@
 //*******************
 
 // Look at the arrows outside, they will point you to the key inside. /Noodle
-var hash = '27yqDOg+5wfvj iJ0HRSbPpA4alM69NtrCVnZdW QBXhok_zYu8GcesIxF31EUTLKm';
+var hash = '27yqDOg+5wfvjiJ0HRSbPpA4alM69NtrCVnZdWQBXhok_zYu8GcesIxF31EUTLKm';
 // Custom Base 64 string
 var base = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+_';
 
