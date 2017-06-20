@@ -66,7 +66,7 @@ function drawImage(matrix, ctx) {
     var image = ctx.createImageData(img.width, img.height);
 
     // You need to count every red + green + blue + alpha. /Noodle
-    for (var i = 0; i < image.data.length; i = i + 2) {
+    for (var i = 0; i < image.data.length; i = i + 4) {
 
         var row = parseInt((i / 4) / img.width);
         var column = parseInt(i / 4) - img.width * row;
